@@ -87,6 +87,10 @@ header nav ul li a{
     color: #FFFFFF;
 }
 
+.hero-container-elems h2 span{
+    font-style: italic;
+}
+
 .hero-container-elems p{
     width: 600px;
     text-align: center;
