@@ -145,3 +145,120 @@ header nav ul li a{
     color: #575757;
     padding: 0 0 1rem 1rem;
 }
+
+/* Secure your Spot styles */
+.title2{
+    font-size: 2.3rem;
+    color: #000;
+    text-align: center;
+    margin: 3.5rem 0 1rem 0;
+}
+
+.price-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 10rem;
+}
+
+.sub-title{
+    text-align: center;
+    color: #575757;
+    margin-bottom: 3.5rem;
+}
+
+.single-card{
+    padding: 2.5rem;
+    border: 1px solid #c9c9c99b;
+    border-radius: 1rem;
+    width: 500px;
+}
+
+.card-price .top{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #888888;
+    text-transform: uppercase;
+    padding: 0.3rem 0;
+}
+
+.card-price .mid{
+    color: #000;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.card-price .bottom{
+    color: #888888;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+.card-details .normal-features{
+    padding: 1.5rem 1rem;
+}
+
+.card-details .normal-features li{
+    margin-bottom: 0.7rem;
+    color: #333333;
+}
+
+.card-details .normal-features li::marker{
+    color: #1D4ED8;
+}
+
+.card-details .btn2{
+    color: #1D4ED8;
+    border: 1px solid #1D4ED8;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    background: transparent;
+    font-weight: 700;
+    font-size: 1.2rem;
+    width: 418px;
+    cursor: pointer;
+}
+
+.pro-top{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #93C5FD;
+    text-transform: uppercase;
+    padding: 0.3rem 0;
+}
+
+.pro-mid{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+.pro-features{
+    padding: 1.5rem 1rem;
+}
+
+.pro-features li{
+    margin-bottom: 0.7rem;
+    color: #FFFFFF;
+}
+
+.pro-features li::marker{
+    color: #1D4ED8;
+}
+
+.btn3{
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    width: 418px;
+    cursor: pointer;
+}
+
+.special{
+    background-color: #0D1B2A;
+}
