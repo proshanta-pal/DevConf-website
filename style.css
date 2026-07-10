@@ -336,3 +336,27 @@ header nav ul li a{
     color: #0D1B2A;
     font-size: 0.8rem;
 }
+
+
+/* Footer section styles */
+footer{
+    background-color: #0D1B2A;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+.footer-right span a i{
+    color: #FFFFFF;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.footer-container2 p{
+    text-align: center;
+    padding: 2rem 0;
+    color: #888888;
+}
